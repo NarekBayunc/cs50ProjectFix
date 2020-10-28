@@ -1,0 +1,177 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+nav{
+  background-color:#249dd1;
+  height:150px;
+  box-shadow: 1px 1px grey;
+}
+nav div ul li a {
+  color:white;
+  transition:0.5s;
+}
+.rightik:hover{
+  background-color:white;
+}
+nav div ul li {
+  padding-left: 30px
+}
+div.container-fluid{
+  width:100%;
+}
+.sign-log:hover{
+  background-color: #317df7;
+  transition: 1s;
+}
+nav a img {
+  padding:0;
+  margin:0;
+}
+main{
+  background-color: #f2fbff;
+}
+main #who{
+  padding: 70px;
+}
+main article div h1 img {
+  width:50px;
+  height: 50px;
+}
+.container.vz{
+  display:flex;
+  position:relative;
+}
+#log{
+  color: #f2fbff;
+}
+.far.fa-user-circle{
+ font-size: 30px;
+}
+.dropdown{
+  display:none;
+}
+#drop-btn{
+  background: white;
+  transition: 1s;
+}
+@media screen and (max-width: 900px){
+  #rightik{
+    display:none;
+  }
+  #block{
+    display: none;
+  }
+  .dropdown{
+    padding-right: 60px;
+    display: block;
+  }
+}
+@media screen and (max-width:950px) {
+  .container.vz{ flex-wrap: wrap;  }
+  main article div div img{
+    padding-bottom: 30px;
+  }
+  #top-img{
+    width:450px;
+    height: 450px;
+  }
+  #tux,#save,#us{
+    width:70px;
+  }
+  #first-card{
+    padding-bottom: 30px;
+  }
+  #rightik{
+    display:none;
+  }
+}
+@media screen and (max-width: 745px){
+  #block{
+    display:none;
+  }
+  #rightik{
+    display:none;
+  }
+}
+@media screen and (max-width: 565px){
+
+  #cont-flex-part{
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  #rightik{
+    display:none;
+  }
+}
+#cont-flex-part{
+  justify-content: space-around;
+  align-items: center;
+}
+#contact-row-first{
+  flex-wrap: wrap;
+}
+main article div div img{
+  height:auto;
+}
+main article div div p{
+  font-size: 18px;
+}
+article.top{
+  padding-bottom: 100px;
+}
+.display-4 {
+  text-align: center;
+  padding-bottom:70px;
+  font-family: 'Josefin Sans', sans-serif;
+  color:#212529;
+}
+article div.row{
+  justify-content: center;
+}
+#tux,#save,#us{
+  width: 120px;
+}
+#uss{
+  width: 150px;
+}
+#amot{
+  width:300px;
+}
+#itt{
+  width:350px;
+}
+.row{
+  padding-bottom: 70px;
+}
+.ifrr{
+  display: flex;
+  justify-content: center;
+}
+#poqr{
+  width: 270px;
+}
+.card-header{
+  background-color: #249dd1;
+  color:White;
+}
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+main{
+  padding-bottom:100px;
+}
+footer{
+  background: #249dd1;
+  padding-top:60px;
+  color:white;
+}
+#reg-btn-foot{
+  background: white;
+}
+#reg-btn-foot:hover{
+  border: 1px solid black;
+}
